@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .topnav {
     float: right;
     margin: 10px 10px;
@@ -19,13 +24,14 @@
 
 .rounded {
     border-radius: 50%;
-    background-color: orangered;
+    background-color: #EA4335;
+    color: #fff;
 }
 
 .logo-holder {
     position: absolute;
-    top: 50%;
-    right: 50%;
+    top: 32%;
+    right: 45%;
 }
 
 a {
@@ -33,4 +39,128 @@ a {
     color: #000;
 }
 
-a:hover {}
+.content-holder {
+    position: absolute;
+    top: 40%;
+    right: 36%;
+}
+
+.round {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 10px 10px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 300px;
+    box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
+}
+
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000;
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+
+.search i {
+    position: absolute;
+    z-index: 6;
+    color: #eee;
+    padding: 8px;
+}
+
+.ankhstyle {
+    right: -154px;
+    color: blue !important;
+}
+
+.buttons {
+    margin-left: 19px;
+    margin-top: 15px;
+}
+
+.buttons li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.Gsearch,
+.how {
+    background-color: #eee;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.language {
+    margin-top: 20px;
+}
+
+.language-b {
+    color: blue;
+}
+
+.language p {
+    font-size: 10px;
+}
+
+.country {
+    background-color: #eee;
+    width: 100%;
+    position: absolute;
+    top: 105%;
+    padding: 10px;
+}
+
+.country p {
+    margin-left: 20px;
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+hr {
+    width: 100%;
+    position: absolute;
+    top: 109%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer {
+    background-color: #eee;
+    width: 100%;
+    position: absolute;
+    top: 110%;
+}
+
+.ul {
+    float: left;
+}
+
+.ul-one {
+    float: right;
+}
+
+.footer li {
+    display: inline-block;
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
