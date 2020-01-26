@@ -86,12 +86,16 @@ a {
 .buttons {
     position: absolute;
     top: 53%;
-    right: 36%;
+    right: 40%;
 }
 
 .buttons li {
     display: inline-block;
-    padding: 10px;
+    padding: 7px;
+}
+
+.google-buttons a {
+    font-size: 12px;
 }
 
 .Gsearch,
@@ -111,8 +115,8 @@ a {
 
 .language {
     position: absolute;
-    top: 63%;
-    right: 33%;
+    top: 60%;
+    right: 35%;
 }
 
 .language-b {
