@@ -5,74 +5,65 @@
 
 html,
 body {
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
-.topnav {
+.topnav-wrapper {
     float: right;
-    margin: 10px 10px;
-}
-
-.topnav ul {
-    list-style: none;
+    position: relative;
+    padding: 15px;
 }
 
 .topnav li {
-    display: inline;
+    display: inline-block;
     padding: 5px;
-}
-
-.rounded {
-    border-radius: 50%;
-    background-color: #EA4335;
-    color: #fff;
-}
-
-.logo-holder {
-    position: absolute;
-    top: 32%;
-    right: 45%;
+    text-decoration: none;
 }
 
 a {
     text-decoration: none;
-    color: #000;
+    color: black;
+}
+
+.logo-holder {
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    right: 39%;
+}
+
+.floatleft {
+    float: left;
+}
+
+.rounded {
+    border-radius: 50%;
+    background-color: coral;
+    color: #fff;
+    padding: 4px 7px !important;
 }
 
 .content-holder {
     position: absolute;
-    top: 40%;
-    right: 36%;
+    top: 43%;
+    right: 64%;
 }
 
 .round {
-    border-radius: 20px;
+    border-radius: 22px;
     border: none;
-    padding: 10px 10px 10px 40px;
+    padding: 15px 15px 15px 60px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 5;
-    width: 300px;
+    width: 400px;
     box-shadow: 0px 3px 9px rgba(113, 117, 123, 0.4);
 }
 
-.corner {
-    position: absolute;
-    top: 3px;
-    left: 5px;
-    height: 20px;
-    width: 20px;
-    z-index: 10;
-    border-radius: 10px;
+.round:focus {
     border: none;
-    background: #000;
-}
-
-.search {
-    position: relative;
-    width: 190px;
-    height: 30px;
 }
 
 .search i {
@@ -82,14 +73,20 @@ a {
     padding: 8px;
 }
 
+.search .fa-search {
+    top: 6px;
+}
+
 .ankhstyle {
-    right: -154px;
+    left: 435px;
     color: blue !important;
+    top: 7px;
 }
 
 .buttons {
-    margin-left: 19px;
-    margin-top: 15px;
+    position: absolute;
+    top: 53%;
+    right: 36%;
 }
 
 .buttons li {
@@ -104,8 +101,18 @@ a {
     border-radius: 2px;
 }
 
+.google-buttons .firstAnchor:hover {
+    text-decoration: none;
+}
+
+.google-buttons .secondAnchor:hover {
+    text-decoration: none;
+}
+
 .language {
-    margin-top: 20px;
+    position: absolute;
+    top: 63%;
+    right: 33%;
 }
 
 .language-b {
@@ -113,15 +120,16 @@ a {
 }
 
 .language p {
-    font-size: 10px;
+    font-size: 12px;
+    padding: 8px;
 }
 
 .country {
     background-color: #eee;
     width: 100%;
     position: absolute;
-    top: 105%;
-    padding: 10px;
+    top: 90%;
+    padding: 20px 0;
 }
 
 .country p {
@@ -129,13 +137,13 @@ a {
     color: gray;
     font-size: 10px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-top: -10px;
 }
 
 hr {
     width: 100%;
     position: absolute;
-    top: 109%;
+    top: 94.8%;
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -146,21 +154,28 @@ hr {
     background-color: #eee;
     width: 100%;
     position: absolute;
-    top: 110%;
+    top: 95%;
+    padding: 20px 0;
+}
+
+.footer-cont li {
+    display: inline-block;
+    padding: 6px;
+}
+
+.footer-cont a {
+    font-size: 12px;
+    color: gray;
 }
 
 .ul {
     float: left;
+    margin-top: -10px;
+    margin-left: 12px;
 }
 
 .ul-one {
     float: right;
-}
-
-.footer li {
-    display: inline-block;
-    color: gray;
-    font-size: 10px;
-    font-weight: bold;
-    margin-left: 20px;
+    margin-top: -10px;
+    margin-right: 12px;
 }
