@@ -29,8 +29,7 @@ a {
 .logo-holder {
     margin: 0 auto;
     position: absolute;
-    top: 30%;
-    right: 39%;
+    top: -100px;
 }
 
 .floatleft {
@@ -44,10 +43,9 @@ a {
     padding: 4px 7px !important;
 }
 
-.content-holder {
+#search-form {
     position: absolute;
-    top: 43%;
-    right: 64%;
+    right: 117px;
 }
 
 .round {
@@ -78,15 +76,21 @@ a {
 }
 
 .ankhstyle {
-    left: 435px;
+    left: 365px;
     color: blue !important;
     top: 7px;
 }
 
 .buttons {
     position: absolute;
-    top: 53%;
-    right: 40%;
+    top: 50%;
+    right: 36%;
+}
+
+.wrapper {
+    position: absolute;
+    top: 40%;
+    right: 50%;
 }
 
 .buttons li {
@@ -116,7 +120,7 @@ a {
 .language {
     position: absolute;
     top: 60%;
-    right: 35%;
+    right: 28%;
 }
 
 .language-b {
@@ -172,14 +176,14 @@ hr {
     color: gray;
 }
 
-.ul {
-    float: left;
-    margin-top: -10px;
-    margin-left: 12px;
-}
-
 .ul-one {
     float: right;
     margin-top: -10px;
     margin-right: 12px;
+}
+
+.ul {
+    float: left;
+    margin-top: -10px;
+    margin-left: 12px;
 }
