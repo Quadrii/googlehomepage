@@ -14,6 +14,10 @@ body {
     padding: 15px;
 }
 
+.topnav {
+    margin-right: 13px;
+}
+
 .topnav li {
     display: inline-block;
     padding: 10px;
@@ -175,7 +179,7 @@ hr {
 }
 
 .footer-cont {
-    width: 100%;
+    width: 99%;
     position: absolute;
     top: 60px;
 }
