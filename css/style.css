@@ -156,11 +156,10 @@ a {
     padding: 20px 0;
 }
 
-.country p {
+.country small {
     margin-left: 20px;
     color: #5F636C;
     font-size: 15px;
-    font-weight: bold;
     margin-top: -10px;
 }
 
