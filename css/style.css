@@ -99,6 +99,10 @@ a {
     font-size: 15px;
 }
 
+.buttons li:hover {
+    border: 1px solid grey;
+}
+
 .google-buttons a {
     font-size: 12px;
     padding: 10px;
