@@ -46,6 +46,7 @@ a {
 #search-form {
     position: absolute;
     right: 77px;
+    top: -20px;
 }
 
 .round {
@@ -84,7 +85,7 @@ a {
 
 .buttons {
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: 39%;
 }
 
@@ -126,7 +127,7 @@ a {
 
 .language {
     position: absolute;
-    top: 60%;
+    top: 55%;
     right: 36%;
 }
 
