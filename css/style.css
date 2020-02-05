@@ -30,6 +30,10 @@ a {
     color: black;
 }
 
+.fa-bars {
+    color: grey;
+}
+
 .logo-holder {
     position: absolute;
     top: -125px;
