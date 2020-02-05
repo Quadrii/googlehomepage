@@ -59,7 +59,7 @@ a {
 
 .round {
     border-radius: 30px;
-    border: 1px solid #eee;
+    border: 1.2px solid #eee;
     padding: 15px 20px 15px 80px;
     position: absolute;
     top: 0;
@@ -93,7 +93,7 @@ a {
 
 .buttons {
     position: absolute;
-    top: 45%;
+    top: 47%;
     right: 39%;
 }
 
@@ -106,7 +106,9 @@ a {
 .buttons li {
     display: inline-block;
     padding: 10px;
-    font-size: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: grey;
 }
 
 .buttons li:hover {
@@ -135,7 +137,7 @@ a {
 
 .language {
     position: absolute;
-    top: 55%;
+    top: 58%;
     right: 36%;
 }
 
