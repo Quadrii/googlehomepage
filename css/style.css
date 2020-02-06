@@ -179,7 +179,7 @@ hr {
     background-color: #F2F2F2;
     width: 100%;
     position: absolute;
-    top: 85%;
+    bottom: 0;
     height: 100px;
 }
 
